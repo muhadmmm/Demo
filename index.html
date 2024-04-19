@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Wishing Website</title>
+  <style>
+    body {
+      font-family: fantasy, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .video-section {
+      text-align: center;
+      padding: 20px;
+      
+    }
+
+    .love-letter {
+      background-color: #ffe6e6;
+      font-size: 20px;
+      padding: 20px;
+      text-align: center;
+      border: solid 1px black;
+      border-radius: 20px;
+      overflow: hidden;
+      font-family: 'URW Chancery L', cursive
+    }
+
+    .photos-section {
+      text-align: center;
+      padding: 10px;
+    }
+    
+    .photos {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+    }
+
+    .photo {
+      margin-bottom: 0px;
+    }
+
+    .photo img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .poem-section {
+      text-align: center;
+      padding: 20px;
+      font-family: Brush Script, Cursive;
+      font-size: 20px;
+      border: solid 1px black;
+      border-radius: 10px;
+    }
+    
+    
+    .slideshow-container {
+      overflow: hidden;
+    }
+
+    .slideshow-images {
+      display: flex;
+      animation: slide-left 10s linear infinite;
+    }
+
+    .slideshow-images img {
+      width: 40%;
+      height: auto;
+      border-radius: 15px;
+      margin: 5px;
+      border : 1px solid black;
+    }
+
+    @keyframes slide-left {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+    .video{
+      border-radius: 15px;
+      overflow: hidden ;
+      border: mistyrose 1px solid;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Happy Birthday Sanu</h1>
+  </header>
+
+<!--  -->
+  <section class="slideshow-container">
+  <!-- Slideshow section -->
+  <div class="slideshow-images">
+    <img src="images/img1.jpg" alt="Image 1">
+    <img src="images/image2.jpg" alt="Image 2">
+    <img src="images/image3.jpg" alt="Image 3">
+    <img src="images/image5.jpg" alt="Image 5">
+    <img src="images/image6.jpg" alt="Image 6">
+    <img src="images/img7.jpg" alt="Image 7">
+    <img src="images/img8.jpg" alt="Image 8">
+    <img src="images/img9.jpg" alt="Image 9">
+    <img src="images/img10.jpg" alt="Image 10">
+    <img src="images/img11.jpg" alt="image 11">
+  </div>
+
+  <div class="love-letter">
+    
+    <p>Sanu..
+    <br>
+Hey sanu,
+
+Wishing you the happiest of birthdays today! 🎉
+
+<p>Just wanted to take a moment to let you know how much you mean to me. Your kindness, beauty, and friendship have made my life infinitely better. I feel incredibly lucky to have you by my side.</p>
+
+Here's to another amazing year filled with laughter, love, and unforgettable memories. May your day be as fabulous as you are!
+
+Happy birthday, my dear friend!
+
+With love,
+    </p>
+    <p align="Right"><font color="red">
+     by <br> muhu..</font></p>
+  </div>
+
+ <section class="photos-section">
+  <!-- Photos section -->
+  <div class="photos">
+    <div class="photo"><img src="photo1.jpg" alt="Photo 1"></div>
+    <div class="photo"><img src="photo2.jpg" alt="Photo 2"></div>
+    <div class="photo"><img src="photo3.jpg" alt="Photo 3"></div>
+    <div class="photo"><img src="photo4.jpg" alt="Photo 4"></div>
+    <div class="photo"><img src="photo5.jpg" alt="Photo 5"></div>
+    <div class="photo"><img src="photo6.jpg" alt="Photo 3"></div>
+    <div class="photo"><img src="photo7.jpg" alt="Photo 7"></div>
+    <div class="photo"><img src="photo8.jpg" alt="Photo 8"></div>
+    <div class="photo"><img src="photo9.jpg" alt="Photo 9"></div>
+    
+  </div>
+</section>
+
+  <section class="poem-section">
+    <!-- Poem section -->
+    <!--  I love you, I always breathe, Believe that you have.
+      I'm just crazy, I'm looking forward to the morning with you!
+      <br>
+      I love you endlessly, It’s spring in my soul. I am glad that I have you,
+      I live for you, my beloved!
+      <br>
+      Don’t look for doubts, love one, give me a fairy tale, stretch out your palm.
+    </p>-->
+   <p> Though there is gold up in the  mountains, lovely pearls deep in the sea, those treasures do not mean as much as your friendship means to me.</p>
+
+
+    <p align="right">- ALORA M. KNIGHT</p>
+  </section>
+    <p align="center">🎁</p>
+    </section>
+    <div class="video-section">
+    
+    <video class="video"src="make-a-wish.mp4" controls autoplay muted width="300"></video>
+    </div>
+
+</body>
+</html>
